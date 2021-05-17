@@ -1,9 +1,9 @@
 /*@Description- Read a number and display a unit */
 
-let read = require('read-sync');
+let readline = require('readline-sync');
 function DisplayUnit(unit){
     if (unit == 1)
-        console.log("Units");
+        console.log("One");
     else if (unit == 10)
         console.log("Tens");
     else if (unit == 100)
@@ -13,5 +13,5 @@ function DisplayUnit(unit){
     else 
         console.log("You Enterd Invalid unit number.");
     }
-let unit = read.question("Enter the number unit\n");
+let unit = readline.question("Enter the number unit\n");
 DisplayUnit(unit);

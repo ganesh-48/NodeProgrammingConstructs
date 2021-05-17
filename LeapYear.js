@@ -8,5 +8,5 @@ function leapYear(year) {
         console.log(year+ "This is not a leap year");
     }
 }
-const year = prompt("Enter a Year: ");
+const year = prompt ("Enter a Year: ");
 leapYear(year);

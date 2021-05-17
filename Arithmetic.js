@@ -27,4 +27,4 @@ function arithmaticOperation(num1, num2, num3){
     }
 
     console.log("Array elements : "+value);
-    console.log("Maximum value is: "+maxValue+"  Minimum value is: "+minValue);
+    console.log("Maximum value is: "+maxValue+"\nMinimum value is: "+minValue);

@@ -1,5 +1,3 @@
-/*@Description- Read a number and show the weekday */
-
 let readline = require('readline-sync');
 function weekday(day) {
     if (day == 0)
@@ -19,5 +17,5 @@ function weekday(day) {
     else 
         console.log("your invalid choice.");
     }
-let day = readline.question("Enter the number between 1-7\n: ");
+let day = read.question("Enter the number between 1-7\n: ");
 weekday(day);
